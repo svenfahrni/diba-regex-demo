@@ -1,0 +1,32 @@
+body {
+  background: rgb(29, 102, 197);
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  
+  width: 20vw;
+  min-width: 250px;
+
+  box-shadow: 0px 4px 7px -2px rgba(0,0,0,0.54);
+}
+
+.firstname {
+  color: rgb(29, 102, 197);
+  animation: tracking-in-expand .8s both;
+}
+
+.lastname {
+  animation: tracking-in-expand .8s .8s both;
+}
+
+.error {
+  color: red;
+}
